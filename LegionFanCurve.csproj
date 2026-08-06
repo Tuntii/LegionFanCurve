@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>LegionFanCurve</AssemblyName>
+    <RootNamespace>LegionFanCurve</RootNamespace>
+    <Version>1.0.0</Version>
+    <Description>Custom fan curve for Legion 5 15ARH05H (Gen5 EC) - max 4400 RPM</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Update="inpoutx64.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="curve.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="10.0.10" />
+  </ItemGroup>
+</Project>

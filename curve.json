@@ -1,0 +1,18 @@
+{
+  "legionGen": 5,
+  "maxRpm": 4400,
+  "accel": 2,
+  "decel": 2,
+  "hysteresis": 3,
+  "points": [
+    { "cpu": 40, "gpu": 42, "rpm": 1800 },
+    { "cpu": 50, "gpu": 52, "rpm": 2200 },
+    { "cpu": 58, "gpu": 60, "rpm": 2600 },
+    { "cpu": 65, "gpu": 66, "rpm": 3000 },
+    { "cpu": 72, "gpu": 72, "rpm": 3400 },
+    { "cpu": 78, "gpu": 78, "rpm": 3800 },
+    { "cpu": 84, "gpu": 84, "rpm": 4100 },
+    { "cpu": 90, "gpu": 90, "rpm": 4300 },
+    { "cpu": 95, "gpu": 95, "rpm": 4400 }
+  ]
+}
